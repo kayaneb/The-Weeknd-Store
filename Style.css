@@ -1,0 +1,378 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+	display: flex;
+	align-items: center;
+	padding: 10px;
+}
+nav {
+	flex: 1;
+	text-align: right;
+}
+
+nav ul {
+	display: inline-block;
+	list-style-type: none;
+}
+nav ul li {
+	display: inline-block;
+	margin-right: 20px;
+}
+a {
+	text-decoration: none;
+	color: #555;
+}
+
+a:hover {
+	font-size: 17px;
+	color: darkred;
+	border-top: 1px solid darkred;
+	border-bottom: 1px solid darkred;
+}
+
+p {
+	color: darkred;
+}
+.container {
+	max-width: 1300px;
+	margin: auto;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+header {
+	background: radial-gradient(#fff, #cfcfcf);
+	/*text-align: end;*/
+}
+header .row {
+	margin-top: 70px;
+}
+
+.categories {
+	/* margin: 70px 0; */
+	margin: 0 auto;
+	width: 60em;
+}
+
+.title {
+	text-align: center;
+	margin: 0 auto 80px;
+	position: relative;
+	line-height: 60px;
+	color: #555;
+}
+.title::after {
+	content: "";
+	background: #971503;
+	width: 80px;
+	height: 5px;
+	border-radius: 10px;
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.card-1 {
+	background: white;
+	width: 300px;
+	margin: 10px;
+	border-radius: 15px;
+}
+.card-image {
+	height: 260px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	background-size: cover;
+}
+.selling-1 {
+	background-image: url("./the_weeknd_afbeeldingen/after\ hourss\ cd.jpg"); /*https://www.bol.com/nl/nl/c/muziek-the-weeknd/10016838+3132*/
+}
+.selling-2 {
+	background-image: url("./the_weeknd_afbeeldingen/The_Weeknd_merch_1.jpeg"); /*https://stockx.com/artist-merch/the-weeknd*/
+}
+.selling-3 {
+	background-image: url("./the_weeknd_afbeeldingen/the\ weeknd\ merch\ 3.jpeg"); /*https://stockx.com/artist-merch/the-weeknd*/
+}
+
+.card h5 {
+	padding: 10px;
+}
+.card p {
+	padding: 10px;
+}
+
+.card:hover {
+	background-color: white;
+	color: rgb(0, 0, 0);
+	cursor: pointer;
+	transform: scale(1.03);
+	transition: all 0.2s ease;
+}
+
+/*-------footer---------*/
+footer {
+	background: rgb(173, 170, 170);
+	color: #000000;
+	font-size: 14px;
+	padding: 50px 0 20px;
+}
+
+footer {
+	color: #000000;
+}
+
+footer {
+	color: #fff;
+	margin-bottom: 20px;
+}
+
+footer {
+	min-width: 20px;
+	margin-bottom: 10px;
+}
+
+footer {
+	flex-basis: 30%;
+	text-align: center;
+}
+
+ul {
+	list-style-type: none;
+}
+
+/*-------merch pagina---------*/
+
+.container-3 {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.card {
+	background: white;
+	width: 580px;
+	margin: 10px;
+	border-radius: 15px;
+}
+.card-image {
+	height: 450px;
+	margin-top: 80px;
+	margin-bottom: 50px;
+	background-size: cover;
+}
+.merch-1 {
+	background-image: url("./the_weeknd_afbeeldingen/The_Weeknd_merch_1.jpeg"); /*https://stockx.com/artist-merch/the-weeknd*/
+}
+.merch-2 {
+	background-image: url("./the_weeknd_afbeeldingen/the\ weeknd\ merch\ 2.4.jpg"); /*https://stockx.com/artist-merch/the-weeknd*/
+}
+.merch-3 {
+	background-image: url("./the_weeknd_afbeeldingen/the\ weeknd\ merch\ 3.jpeg"); /*https://stockx.com/artist-merch/the-weeknd*/
+}
+.merch-4 {
+	background-image: url("./the_weeknd_afbeeldingen/the\ weeknd\ merch\ 4.jpeg"); /*https://stockx.com/artist-merch/the-weeknd*/
+}
+.merch-5 {
+	background-image: url("./the_weeknd_afbeeldingen/the\ weeknd\ merch\ 6.jpg"); /*https://stockx.com/artist-merch/the-weeknd*/
+}
+.merch-6 {
+	background-image: url("./the_weeknd_afbeeldingen/the\ weeknd\ merch\ 5.jpg"); /*https://stockx.com/artist-merch/the-weeknd*/
+}
+.merch-7 {
+	background-image: url("./the_weeknd_afbeeldingen/the\ weeknd\ merch\ 7.jpg"); /*https://stockx.com/artist-merch/the-weeknd*/
+}
+.merch-8 {
+	background-image: url("./the_weeknd_afbeeldingen/the\ weeknd\ merch\ 12.jpeg"); /*https://stockx.com/artist-merch/the-weeknd*/
+}
+.merch-9 {
+	background-image: url("./the_weeknd_afbeeldingen/the\ weeknd\ merch\ 13.jpeg"); /*https://stockx.com/artist-merch/the-weeknd*/
+}
+.merch-10 {
+	background-image: url("./the_weeknd_afbeeldingen/the\ weeknd\ merch\ last.jpg"); /*https://stockx.com/artist-merch/the-weeknd*/
+}
+.card h5 {
+	padding: 10px;
+}
+.card p {
+	padding: 10px;
+}
+
+.card:hover {
+	background-color: white;
+	color: rgb(0, 0, 0);
+	cursor: pointer;
+	transform: scale(1.03);
+	transition: all 0.2s ease;
+}
+
+/*-------cd pagina---------*/
+
+.container-1 {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.card-1 {
+	background: white;
+	width: 400px;
+	margin: 10px;
+	border-radius: 15px;
+}
+.card-image {
+	height: 450px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-size: cover;
+}
+.cd-1 {
+	background-image: url("./the_weeknd_afbeeldingen/after\ hourss\ cd.jpg"); /*https://www.bol.com/nl/nl/c/muziek-the-weeknd/10016838+3132*/
+}
+.cd-2 {
+	background-image: url("./the_weeknd_afbeeldingen/starboy\ cd.jpg"); /*https://www.bol.com/nl/nl/c/muziek-the-weeknd/10016838+3132*/
+}
+.cd-3 {
+	background-image: url("./the_weeknd_afbeeldingen/bbtm\ cd.jpg"); /*https://www.bol.com/nl/nl/c/muziek-the-weeknd/10016838+3132*/
+}
+.cd-4 {
+	background-image: url("./the_weeknd_afbeeldingen/mdm\ cd.jpg"); /*https://www.bol.com/nl/nl/c/muziek-the-weeknd/10016838+3132*/
+}
+.cd-5 {
+	background-image: url("./the_weeknd_afbeeldingen/kissland\ cd.jpg"); /*https://www.bol.com/nl/nl/c/muziek-the-weeknd/10016838+3132*/
+}
+.cd-6 {
+	background-image: url("./the_weeknd_afbeeldingen/eos\ cd.jpg"); /*https://www.bol.com/nl/nl/c/muziek-the-weeknd/10016838+3132*/
+}
+.cd-7 {
+	background-image: url("./the_weeknd_afbeeldingen/thursday\ cd.jpg"); /*https://www.bol.com/nl/nl/c/muziek-the-weeknd/10016838+3132*/
+}
+.cd-8 {
+	background-image: url("./the_weeknd_afbeeldingen/hob\ cd\ .jpg"); /*https://www.bol.com/nl/nl/c/muziek-the-weeknd/10016838+3132*/
+}
+
+.card h5 {
+	padding: 10px;
+}
+.card p {
+	padding: 10px;
+}
+.card a:last-child {
+	background-color: darkred;
+	color: white;
+	padding: 15px 20px;
+	display: block;
+	text-align: center;
+	margin: 20px 20px;
+}
+.card:hover {
+	background-color: white;
+	color: rgb(0, 0, 0);
+	cursor: pointer;
+	transform: scale(1.03);
+	transition: all 0.2s ease;
+}
+
+/*-------product pagina---------*/
+
+.small-container {
+	max-width: 1000px;
+	margin: auto;
+	padding-left: 25px;
+	padding-right: 20px;
+}
+.row {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.single-product {
+	margin-top: 80px;
+}
+.small-img-row {
+	display: flex;
+	justify-content: space-around;
+}
+.col-2 img {
+	max-width: 100%;
+	padding: 50px 0;
+	margin-bottom: 200px;
+}
+.small-img.col {
+	flex-basis: 24%;
+	cursor: pointer;
+}
+.single-product .col-2 img {
+	margin: 50px;
+}
+.single-product .col-2 {
+	padding: 20px;
+}
+.col-2 {
+	flex-basis: 50%;
+	min-width: 300px;
+}
+.col-2 h1 {
+	font-size: 80px;
+	line-height: 60px;
+	margin: 25px 0;
+}
+.single-product select {
+	display: block;
+	padding: 10px;
+	margin-top: 20px;
+}
+.single-product p {
+	margin: 20px 0;
+	font-size: 20px;
+	font-weight: bold;
+}
+.single-product input {
+	width: 50px;
+	height: 40px;
+	padding-left: 10px;
+	margin-right: 10px;
+	border: 1px solid #645f5f;
+}
+input:focus {
+	outline: none;
+}
+a {
+	text-decoration: none;
+	color: rgb(0, 0, 0);
+}
+
+p {
+	color: rgb(85, 83, 83);
+}
+.btn {
+	background-color: darkred;
+	color: white;
+	padding: 8px 30px;
+	display: inline-block;
+	text-align: center;
+	margin: 20px 20px;
+}
+.btn:hover {
+	color: white;
+}
+
+.col-2 img:hover {
+	background-color: white;
+	color: rgb(0, 0, 0);
+	cursor: pointer;
+	transform: scale(1.2);
+	transition: all 0.2s ease;
+}
